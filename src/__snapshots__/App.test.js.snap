@@ -17,23 +17,51 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": <h1>
-         hello world 
+      "children": Array [
+        <h1>
+           Gif warrior 2.0 
 </h1>,
+        <h3>
+           time to get giffing
+</h3>,
+        <NavBar />,
+      ],
       "className": "App",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": null,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": " hello world ",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": " Gif warrior 2.0 ",
+        },
+        "ref": null,
+        "rendered": " Gif warrior 2.0 ",
+        "type": "h1",
       },
-      "ref": null,
-      "rendered": " hello world ",
-      "type": "h1",
-    },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": " time to get giffing",
+        },
+        "ref": null,
+        "rendered": " time to get giffing",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -42,23 +70,51 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <h1>
-           hello world 
+        "children": Array [
+          <h1>
+             Gif warrior 2.0 
 </h1>,
+          <h3>
+             time to get giffing
+</h3>,
+          <NavBar />,
+        ],
         "className": "App",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": " hello world ",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " Gif warrior 2.0 ",
+          },
+          "ref": null,
+          "rendered": " Gif warrior 2.0 ",
+          "type": "h1",
         },
-        "ref": null,
-        "rendered": " hello world ",
-        "type": "h1",
-      },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " time to get giffing",
+          },
+          "ref": null,
+          "rendered": " time to get giffing",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
