@@ -10,8 +10,8 @@ import App from '../App';
 
 
 
-const app = mount(<App />);
-const navBar = mount(<NavBar />);
+const app = shallow(<App />);
+const navBar = shallow(<NavBar />);
 
 it('renders without crashing', () => {
   const div = document.createElement('div');

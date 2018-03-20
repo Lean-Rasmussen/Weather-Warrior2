@@ -18,16 +18,24 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h1>
-           Gif warrior 2.0 
-</h1>,
-        <h3>
-           time to get giffing
-</h3>,
+        <div
+          className="header"
+>
+          <h1>
+                     Gif warrior 2.0 
+          </h1>
+          <h3>
+                     time to get giffing
+          </h3>
+</div>,
         <NavBar
           SetMainScreens={[Function]}
 />,
-        <Home />,
+        <div
+          className="main-screan"
+>
+          <Home />
+</div>,
       ],
       "className": "App",
     },
@@ -38,22 +46,42 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": " Gif warrior 2.0 ",
+          "children": Array [
+            <h1>
+               Gif warrior 2.0 
+</h1>,
+            <h3>
+               time to get giffing
+</h3>,
+          ],
+          "className": "header",
         },
         "ref": null,
-        "rendered": " Gif warrior 2.0 ",
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": " time to get giffing",
-        },
-        "ref": null,
-        "rendered": " time to get giffing",
-        "type": "h3",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " Gif warrior 2.0 ",
+            },
+            "ref": null,
+            "rendered": " Gif warrior 2.0 ",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " time to get giffing",
+            },
+            "ref": null,
+            "rendered": " time to get giffing",
+            "type": "h3",
+          },
+        ],
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -69,11 +97,22 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "class",
-        "props": Object {},
+        "nodeType": "host",
+        "props": Object {
+          "children": <Home />,
+          "className": "main-screan",
+        },
         "ref": null,
-        "rendered": null,
-        "type": [Function],
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
       },
     ],
     "type": "div",
@@ -85,16 +124,24 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h1>
-             Gif warrior 2.0 
-</h1>,
-          <h3>
-             time to get giffing
-</h3>,
+          <div
+            className="header"
+>
+            <h1>
+                         Gif warrior 2.0 
+            </h1>
+            <h3>
+                         time to get giffing
+            </h3>
+</div>,
           <NavBar
             SetMainScreens={[Function]}
 />,
-          <Home />,
+          <div
+            className="main-screan"
+>
+            <Home />
+</div>,
         ],
         "className": "App",
       },
@@ -105,22 +152,42 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": " Gif warrior 2.0 ",
+            "children": Array [
+              <h1>
+                 Gif warrior 2.0 
+</h1>,
+              <h3>
+                 time to get giffing
+</h3>,
+            ],
+            "className": "header",
           },
           "ref": null,
-          "rendered": " Gif warrior 2.0 ",
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": " time to get giffing",
-          },
-          "ref": null,
-          "rendered": " time to get giffing",
-          "type": "h3",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Gif warrior 2.0 ",
+              },
+              "ref": null,
+              "rendered": " Gif warrior 2.0 ",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " time to get giffing",
+              },
+              "ref": null,
+              "rendered": " time to get giffing",
+              "type": "h3",
+            },
+          ],
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -136,11 +203,22 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
-          "props": Object {},
+          "nodeType": "host",
+          "props": Object {
+            "children": <Home />,
+            "className": "main-screan",
+          },
           "ref": null,
-          "rendered": null,
-          "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
         },
       ],
       "type": "div",

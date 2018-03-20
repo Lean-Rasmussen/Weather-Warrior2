@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {connect} from 'react-redux';
 //import styles
 import './styles/index.css';
 //import components
@@ -25,13 +26,22 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1> Gif warrior 2.0 </h1>
-        <h3> time to get giffing</h3>
+        <div className='header'>
+          <h1> Gif warrior 2.0 </h1>
+          <h3> time to get giffing</h3>
+        </div>
         <NavBar SetMainScreens ={setMainScreen} />
-        <Home />
+        <div className ="main-screan">
+          <Home />
+        </div>
       </div>
     );
   }
 }
 
+function mapStateToProps(state){
+  return{
+    activeScreen: '',
+  }
+}
 export default App;
