@@ -1,9 +1,19 @@
+//import modules
 import React, {Component} from 'react';
+
+//import components
+import PlayerStats from './home/PlayerStats'
 
 class Home extends Component{
     render(){
         return(
-            <h1> Home Screen</h1>
+            <div>
+                <h1> Home Screen</h1> 
+                <PlayerStats data ={40} />
+            </div>
+
+           
+            
         )
     }
 }
