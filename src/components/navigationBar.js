@@ -1,26 +1,41 @@
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import { navAction } from "./actions/navigationActions" 
+import {bindActionCreators} from 'redux';
+
 
 class NavBar extends Component{
-    constructor(props){
-        super(props)
-    }
-    SetMainScreen(e){
-        this.props.SetMainScreens(e);
-    }
 
     render(){
         return(
             <div className="nav-bar">
-                <button 
-                    onClick= {event => this.SetMainScreen(event.target.id)}  
-                    id='Home' className="nav-bar__home">Home
-                </button>   
-                <div  id='NewChar' className ="nav-bar__new-char">New Char</div>   
-                <div  id='Battle' className = "nav-bar __battle">Battle</div>   
+                <div 
+                    id='Home' className="nav-bar__home"
+                    onClick= {(event)=>this.props.mainScreen(event.target.id)}    
+                    >Home
+                </div>   
+                <div 
+                    id='NewChar' className ="nav-bar__new-char"  
+                    onClick= {(event)=>this.props.mainScreen(event.target.id)} 
+                    >New Char</div>   
+                <div  
+                    id='Battle' className = "nav-bar __battle"  
+                    onClick= {(event)=>this.props.mainScreen(event.target.id)}
+                    >Battle</div> 
             </div>
         )
     }
 }
+function MapStateToProps(state){
+    return{
+    ScreenOfChoice: state.ActiveScreen,
+    }
+}
 
+//anything returned from this function will end up as props on navigationBar container
+function MapDispatchToProps(dispatch){
+//when a new screen is pressed, the screen should be passed to the reducers though the action.
+  return bindActionCreators({mainScreen: navAction}, dispatch);
+}
 
-export default NavBar;
+export default connect(MapStateToProps, MapDispatchToProps)(NavBar);

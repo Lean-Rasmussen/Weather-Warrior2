@@ -8,21 +8,22 @@ import Battle from './components/battle';
 import Home from './components/home';
 import NewChar from './components/newChar';
 
-class App extends Component {
-  constructor(props){
-    super(props)
-    this.state= {
-      activeScreen :''
 
-    }
-  }
-  setMainScreen(term){
-    this.setState({activeScreen: term})
-    console.log(this.state.activeScreen)
-  };
+
+export class App extends Component {
 
   render() {
-    const setMainScreen=(term) => {this.setMainScreen(term)}
+    let activeScreen = null; 
+    const SS = this.props.ScreenChange;
+      if(!SS || SS === 'Home' ){
+        activeScreen = <Home />
+      }else if(SS === 'Battle'){
+        activeScreen = <Battle />
+      }else if(SS === 'NewChar'){
+        activeScreen= <NewChar />
+      }else{
+        activeScreen= <Home />
+      }
 
     return (
       <div className="App">
@@ -30,18 +31,20 @@ class App extends Component {
           <h1> Gif warrior 2.0 </h1>
           <h3> time to get giffing</h3>
         </div>
-        <NavBar SetMainScreens ={setMainScreen} />
+        <NavBar  />
         <div className ="main-screan">
-          <Home />
+          {activeScreen}
         </div>
       </div>
     );
   }
 }
 
-function mapStateToProps(state){
+function MapStateToProps(state){
+  //what ever is returned from here wil show up as props
   return{
-    activeScreen: '',
+    ScreenChange: state.ActiveScreen,
   }
 }
-export default App;
+
+export default connect(MapStateToProps)(App);

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Navbar renders 1`] = `
+exports[`navbar renderes Navbar renders 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -18,22 +18,24 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <button
+        <div
           className="nav-bar__home"
           id="Home"
           onClick={[Function]}
 >
           Home
-</button>,
+</div>,
         <div
           className="nav-bar__new-char"
           id="NewChar"
+          onClick={[Function]}
 >
           New Char
 </div>,
         <div
           className="nav-bar __battle"
           id="Battle"
+          onClick={[Function]}
 >
           Battle
 </div>,
@@ -54,7 +56,7 @@ ShallowWrapper {
         },
         "ref": null,
         "rendered": "Home",
-        "type": "button",
+        "type": "div",
       },
       Object {
         "instance": null,
@@ -64,6 +66,7 @@ ShallowWrapper {
           "children": "New Char",
           "className": "nav-bar__new-char",
           "id": "NewChar",
+          "onClick": [Function],
         },
         "ref": null,
         "rendered": "New Char",
@@ -77,6 +80,7 @@ ShallowWrapper {
           "children": "Battle",
           "className": "nav-bar __battle",
           "id": "Battle",
+          "onClick": [Function],
         },
         "ref": null,
         "rendered": "Battle",
@@ -92,22 +96,24 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <button
+          <div
             className="nav-bar__home"
             id="Home"
             onClick={[Function]}
 >
             Home
-</button>,
+</div>,
           <div
             className="nav-bar__new-char"
             id="NewChar"
+            onClick={[Function]}
 >
             New Char
 </div>,
           <div
             className="nav-bar __battle"
             id="Battle"
+            onClick={[Function]}
 >
             Battle
 </div>,
@@ -128,7 +134,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "Home",
-          "type": "button",
+          "type": "div",
         },
         Object {
           "instance": null,
@@ -138,6 +144,7 @@ ShallowWrapper {
             "children": "New Char",
             "className": "nav-bar__new-char",
             "id": "NewChar",
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": "New Char",
@@ -151,6 +158,7 @@ ShallowWrapper {
             "children": "Battle",
             "className": "nav-bar __battle",
             "id": "Battle",
+            "onClick": [Function],
           },
           "ref": null,
           "rendered": "Battle",
