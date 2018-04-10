@@ -44,7 +44,6 @@ export class NewChar extends Component{
                     </select>
                     <div>
                         <p>{classText}</p>
-                        <img>Image for class </img>
                     </div>
                     <button> OK yea I made my guy </button>
                 </div>
