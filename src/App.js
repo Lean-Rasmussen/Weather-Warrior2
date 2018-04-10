@@ -7,6 +7,7 @@ import NavBar from './components/navigationBar';
 import Battle from './components/battle';
 import Home from './components/home';
 import NewChar from './components/newChar';
+import Info from './components/info';
 
 
 
@@ -21,7 +22,10 @@ export class App extends Component {
         activeScreen = <Battle />
       }else if(SS === 'NewChar'){
         activeScreen= <NewChar />
-      }else{
+      }else if(SS === 'Info'){
+        activeScreen = <Info />
+      }
+      else{
         activeScreen= <Home />
       }
 

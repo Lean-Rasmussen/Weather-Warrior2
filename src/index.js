@@ -7,6 +7,8 @@ import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 import rootReducer from './components/reducers/reducerindex'
 
+// Heroku https://boiling-inlet-79559.herokuapp.com/
+
 //helper tools
 import { devToolsEnhancer } from 'redux-devtools-extension';
 

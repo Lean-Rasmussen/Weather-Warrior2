@@ -19,25 +19,60 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <div
-          className="nav-bar__home"
+          className="nav-bar__item"
           id="Home"
           onClick={[Function]}
 >
-          Home
+          <MaterialIcon
+                    class="nav-bar__item-icon"
+                    icon="home"
+                    size="large"
+          />
+          <p>
+                    Home
+          </p>
 </div>,
         <div
-          className="nav-bar__new-char"
+          className="nav-bar__item"
           id="NewChar"
           onClick={[Function]}
 >
-          New Char
+          <MaterialIcon
+                    class="nav-bar__item-icon"
+                    icon="person"
+                    size="large"
+          />
+          <p>
+                    New guy
+          </p>
 </div>,
         <div
-          className="nav-bar __battle"
+          className="nav-bar__item"
           id="Battle"
           onClick={[Function]}
 >
-          Battle
+          <MaterialIcon
+                    class="nav-bar__item-icon"
+                    icon="restaurant"
+                    size="large"
+          />
+          <p>
+                    Battle
+          </p>
+</div>,
+        <div
+          className="nav-bar__item"
+          id="Info"
+          onClick={[Function]}
+>
+          <MaterialIcon
+                    class="nav-bar__item-icon"
+                    icon="info"
+                    size="large"
+          />
+          <p>
+                    Game Info
+          </p>
 </div>,
       ],
       "className": "nav-bar",
@@ -49,13 +84,47 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Home",
-          "className": "nav-bar__home",
+          "children": Array [
+            <MaterialIcon
+              class="nav-bar__item-icon"
+              icon="home"
+              size="large"
+/>,
+            <p>
+              Home
+</p>,
+          ],
+          "className": "nav-bar__item",
           "id": "Home",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": "Home",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "class": "nav-bar__item-icon",
+              "icon": "home",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Home",
+            },
+            "ref": null,
+            "rendered": "Home",
+            "type": "p",
+          },
+        ],
         "type": "div",
       },
       Object {
@@ -63,13 +132,47 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "New Char",
-          "className": "nav-bar__new-char",
+          "children": Array [
+            <MaterialIcon
+              class="nav-bar__item-icon"
+              icon="person"
+              size="large"
+/>,
+            <p>
+              New guy
+</p>,
+          ],
+          "className": "nav-bar__item",
           "id": "NewChar",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": "New Char",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "class": "nav-bar__item-icon",
+              "icon": "person",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "New guy",
+            },
+            "ref": null,
+            "rendered": "New guy",
+            "type": "p",
+          },
+        ],
         "type": "div",
       },
       Object {
@@ -77,13 +180,95 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Battle",
-          "className": "nav-bar __battle",
+          "children": Array [
+            <MaterialIcon
+              class="nav-bar__item-icon"
+              icon="restaurant"
+              size="large"
+/>,
+            <p>
+              Battle
+</p>,
+          ],
+          "className": "nav-bar__item",
           "id": "Battle",
           "onClick": [Function],
         },
         "ref": null,
-        "rendered": "Battle",
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "class": "nav-bar__item-icon",
+              "icon": "restaurant",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Battle",
+            },
+            "ref": null,
+            "rendered": "Battle",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <MaterialIcon
+              class="nav-bar__item-icon"
+              icon="info"
+              size="large"
+/>,
+            <p>
+              Game Info
+</p>,
+          ],
+          "className": "nav-bar__item",
+          "id": "Info",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "class": "nav-bar__item-icon",
+              "icon": "info",
+              "size": "large",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Game Info",
+            },
+            "ref": null,
+            "rendered": "Game Info",
+            "type": "p",
+          },
+        ],
         "type": "div",
       },
     ],
@@ -97,25 +282,60 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <div
-            className="nav-bar__home"
+            className="nav-bar__item"
             id="Home"
             onClick={[Function]}
 >
-            Home
+            <MaterialIcon
+                        class="nav-bar__item-icon"
+                        icon="home"
+                        size="large"
+            />
+            <p>
+                        Home
+            </p>
 </div>,
           <div
-            className="nav-bar__new-char"
+            className="nav-bar__item"
             id="NewChar"
             onClick={[Function]}
 >
-            New Char
+            <MaterialIcon
+                        class="nav-bar__item-icon"
+                        icon="person"
+                        size="large"
+            />
+            <p>
+                        New guy
+            </p>
 </div>,
           <div
-            className="nav-bar __battle"
+            className="nav-bar__item"
             id="Battle"
             onClick={[Function]}
 >
-            Battle
+            <MaterialIcon
+                        class="nav-bar__item-icon"
+                        icon="restaurant"
+                        size="large"
+            />
+            <p>
+                        Battle
+            </p>
+</div>,
+          <div
+            className="nav-bar__item"
+            id="Info"
+            onClick={[Function]}
+>
+            <MaterialIcon
+                        class="nav-bar__item-icon"
+                        icon="info"
+                        size="large"
+            />
+            <p>
+                        Game Info
+            </p>
 </div>,
         ],
         "className": "nav-bar",
@@ -127,13 +347,47 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Home",
-            "className": "nav-bar__home",
+            "children": Array [
+              <MaterialIcon
+                class="nav-bar__item-icon"
+                icon="home"
+                size="large"
+/>,
+              <p>
+                Home
+</p>,
+            ],
+            "className": "nav-bar__item",
             "id": "Home",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": "Home",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "class": "nav-bar__item-icon",
+                "icon": "home",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Home",
+              },
+              "ref": null,
+              "rendered": "Home",
+              "type": "p",
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -141,13 +395,47 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "New Char",
-            "className": "nav-bar__new-char",
+            "children": Array [
+              <MaterialIcon
+                class="nav-bar__item-icon"
+                icon="person"
+                size="large"
+/>,
+              <p>
+                New guy
+</p>,
+            ],
+            "className": "nav-bar__item",
             "id": "NewChar",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": "New Char",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "class": "nav-bar__item-icon",
+                "icon": "person",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "New guy",
+              },
+              "ref": null,
+              "rendered": "New guy",
+              "type": "p",
+            },
+          ],
           "type": "div",
         },
         Object {
@@ -155,13 +443,95 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Battle",
-            "className": "nav-bar __battle",
+            "children": Array [
+              <MaterialIcon
+                class="nav-bar__item-icon"
+                icon="restaurant"
+                size="large"
+/>,
+              <p>
+                Battle
+</p>,
+            ],
+            "className": "nav-bar__item",
             "id": "Battle",
             "onClick": [Function],
           },
           "ref": null,
-          "rendered": "Battle",
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "class": "nav-bar__item-icon",
+                "icon": "restaurant",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Battle",
+              },
+              "ref": null,
+              "rendered": "Battle",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <MaterialIcon
+                class="nav-bar__item-icon"
+                icon="info"
+                size="large"
+/>,
+              <p>
+                Game Info
+</p>,
+            ],
+            "className": "nav-bar__item",
+            "id": "Info",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "class": "nav-bar__item-icon",
+                "icon": "info",
+                "size": "large",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Game Info",
+              },
+              "ref": null,
+              "rendered": "Game Info",
+              "type": "p",
+            },
+          ],
           "type": "div",
         },
       ],

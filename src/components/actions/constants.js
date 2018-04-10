@@ -1,1 +1,3 @@
 export const SET_SCREEN ='SET_MAINSCREEN';
+export const CLASS_SELECTED = 'CLASS_SELECTED';
+export const INPUT_NAME ='INPUT_NAME'
