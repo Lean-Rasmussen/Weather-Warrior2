@@ -12,3 +12,8 @@ export const inputName = (name)=>({
     name: name,
     }
 )
+export const createCharAction =(name, selectedClass)=>({
+    type: constants.NEW_CHAR_CREATED,
+    name:name,
+    class: selectedClass,
+})

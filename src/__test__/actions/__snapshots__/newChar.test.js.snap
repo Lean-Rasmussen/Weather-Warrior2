@@ -29,7 +29,7 @@ ShallowWrapper {
           </p>
           <input
                     class="NewChar__input"
-                    onCHange={[Function]}
+                    onChange={[Function]}
           />
           <p>
                      Class 
@@ -51,9 +51,9 @@ ShallowWrapper {
                                Girl Scout 
                     </option>
                     <option
-                              id="Shovel kid"
+                              id="Sports Prodegy"
                     >
-                               Shovel Kid
+                               Sports Prodegy
                     </option>
                     <option
                               id="Collector"
@@ -70,13 +70,17 @@ ShallowWrapper {
                     <p>
                               This is going to say something about the class you pick
                     </p>
+                    <iframe
+                              height="300"
+                              src=""
+                              width="300"
+                    />
           </div>
-          <button>
+          <button
+                    onClick={[Function]}
+          >
                      OK yea I made my guy 
           </button>
-</div>,
-        <div>
-           here goes your hero gif
 </div>,
       ],
     },
@@ -116,7 +120,7 @@ ShallowWrapper {
 </p>,
             <input
               class="NewChar__input"
-              onCHange={[Function]}
+              onChange={[Function]}
 />,
             <p>
                Class 
@@ -138,9 +142,9 @@ ShallowWrapper {
                              Girl Scout 
               </option>
               <option
-                            id="Shovel kid"
+                            id="Sports Prodegy"
               >
-                             Shovel Kid
+                             Sports Prodegy
               </option>
               <option
                             id="Collector"
@@ -157,8 +161,15 @@ ShallowWrapper {
               <p>
                             This is going to say something about the class you pick
               </p>
+              <iframe
+                            height="300"
+                            src=""
+                            width="300"
+              />
 </div>,
-            <button>
+            <button
+              onClick={[Function]}
+>
                OK yea I made my guy 
 </button>,
           ],
@@ -188,7 +199,7 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "class": "NewChar__input",
-              "onCHange": [Function],
+              "onChange": [Function],
             },
             "ref": null,
             "rendered": null,
@@ -225,9 +236,9 @@ ShallowWrapper {
                    Girl Scout 
 </option>,
                 <option
-                  id="Shovel kid"
+                  id="Sports Prodegy"
 >
-                   Shovel Kid
+                   Sports Prodegy
 </option>,
                 <option
                   id="Collector"
@@ -284,11 +295,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": " Shovel Kid",
-                  "id": "Shovel kid",
+                  "children": " Sports Prodegy",
+                  "id": "Sports Prodegy",
                 },
                 "ref": null,
-                "rendered": " Shovel Kid",
+                "rendered": " Sports Prodegy",
                 "type": "option",
               },
               Object {
@@ -323,22 +334,44 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <p>
-                This is going to say something about the class you pick
+              "children": Array [
+                <p>
+                  This is going to say something about the class you pick
 </p>,
+                <iframe
+                  height="300"
+                  src=""
+                  width="300"
+/>,
+              ],
             },
             "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "This is going to say something about the class you pick",
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "This is going to say something about the class you pick",
+                },
+                "ref": null,
+                "rendered": "This is going to say something about the class you pick",
+                "type": "p",
               },
-              "ref": null,
-              "rendered": "This is going to say something about the class you pick",
-              "type": "p",
-            },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "height": "300",
+                  "src": "",
+                  "width": "300",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "iframe",
+              },
+            ],
             "type": "div",
           },
           Object {
@@ -347,23 +380,13 @@ ShallowWrapper {
             "nodeType": "host",
             "props": Object {
               "children": " OK yea I made my guy ",
+              "onClick": [Function],
             },
             "ref": null,
             "rendered": " OK yea I made my guy ",
             "type": "button",
           },
         ],
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": " here goes your hero gif",
-        },
-        "ref": null,
-        "rendered": " here goes your hero gif",
         "type": "div",
       },
     ],
@@ -387,7 +410,7 @@ ShallowWrapper {
             </p>
             <input
                         class="NewChar__input"
-                        onCHange={[Function]}
+                        onChange={[Function]}
             />
             <p>
                          Class 
@@ -409,9 +432,9 @@ ShallowWrapper {
                                      Girl Scout 
                         </option>
                         <option
-                                    id="Shovel kid"
+                                    id="Sports Prodegy"
                         >
-                                     Shovel Kid
+                                     Sports Prodegy
                         </option>
                         <option
                                     id="Collector"
@@ -428,13 +451,17 @@ ShallowWrapper {
                         <p>
                                     This is going to say something about the class you pick
                         </p>
+                        <iframe
+                                    height="300"
+                                    src=""
+                                    width="300"
+                        />
             </div>
-            <button>
+            <button
+                        onClick={[Function]}
+            >
                          OK yea I made my guy 
             </button>
-</div>,
-          <div>
-             here goes your hero gif
 </div>,
         ],
       },
@@ -474,7 +501,7 @@ ShallowWrapper {
 </p>,
               <input
                 class="NewChar__input"
-                onCHange={[Function]}
+                onChange={[Function]}
 />,
               <p>
                  Class 
@@ -496,9 +523,9 @@ ShallowWrapper {
                                  Girl Scout 
                 </option>
                 <option
-                                id="Shovel kid"
+                                id="Sports Prodegy"
                 >
-                                 Shovel Kid
+                                 Sports Prodegy
                 </option>
                 <option
                                 id="Collector"
@@ -515,8 +542,15 @@ ShallowWrapper {
                 <p>
                                 This is going to say something about the class you pick
                 </p>
+                <iframe
+                                height="300"
+                                src=""
+                                width="300"
+                />
 </div>,
-              <button>
+              <button
+                onClick={[Function]}
+>
                  OK yea I made my guy 
 </button>,
             ],
@@ -546,7 +580,7 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "class": "NewChar__input",
-                "onCHange": [Function],
+                "onChange": [Function],
               },
               "ref": null,
               "rendered": null,
@@ -583,9 +617,9 @@ ShallowWrapper {
                      Girl Scout 
 </option>,
                   <option
-                    id="Shovel kid"
+                    id="Sports Prodegy"
 >
-                     Shovel Kid
+                     Sports Prodegy
 </option>,
                   <option
                     id="Collector"
@@ -642,11 +676,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": " Shovel Kid",
-                    "id": "Shovel kid",
+                    "children": " Sports Prodegy",
+                    "id": "Sports Prodegy",
                   },
                   "ref": null,
-                  "rendered": " Shovel Kid",
+                  "rendered": " Sports Prodegy",
                   "type": "option",
                 },
                 Object {
@@ -681,22 +715,44 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <p>
-                  This is going to say something about the class you pick
+                "children": Array [
+                  <p>
+                    This is going to say something about the class you pick
 </p>,
+                  <iframe
+                    height="300"
+                    src=""
+                    width="300"
+/>,
+                ],
               },
               "ref": null,
-              "rendered": Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": "This is going to say something about the class you pick",
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "This is going to say something about the class you pick",
+                  },
+                  "ref": null,
+                  "rendered": "This is going to say something about the class you pick",
+                  "type": "p",
                 },
-                "ref": null,
-                "rendered": "This is going to say something about the class you pick",
-                "type": "p",
-              },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "height": "300",
+                    "src": "",
+                    "width": "300",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "iframe",
+                },
+              ],
               "type": "div",
             },
             Object {
@@ -705,23 +761,13 @@ ShallowWrapper {
               "nodeType": "host",
               "props": Object {
                 "children": " OK yea I made my guy ",
+                "onClick": [Function],
               },
               "ref": null,
               "rendered": " OK yea I made my guy ",
               "type": "button",
             },
           ],
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": " here goes your hero gif",
-          },
-          "ref": null,
-          "rendered": " here goes your hero gif",
           "type": "div",
         },
       ],

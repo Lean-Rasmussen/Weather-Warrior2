@@ -1,10 +1,11 @@
 $darkGrey:#333;
+$lightGrey:#555;
 /*Setting up grid and basic layout*/
 .App{
     display: grid;
     grid-template-columns: 150px 1fr;
     grid-template-rows: 1fr 500px;
-    grid-gap: 1em;
+    grid-gap: 0em;
 }
 .header{
     grid-area: 1/1/2/3;
@@ -28,12 +29,13 @@ $darkGrey:#333;
 }
 .nav-bar__item{
     border-bottom:#111 solid 3px;
+    border-right:#111 solid 3px;
     width: 100%;
     height: 90%;
     text-align: center;
  
     &:hover{
-        background-color: #555;
+        background-color:$lightGrey;
         cursor: pointer;
     }
     p{
@@ -43,4 +45,23 @@ $darkGrey:#333;
         margin-top: 20px;
     }
 }
-
+/* New char screen*/
+.new-char{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: $darkGrey;
+}
+.new-char__headline{
+    grid-area: 1/1/2/3;
+}
+.new-char__name-input{
+    grid-area: 2/1/3/2;
+}
+.new-char__gif{
+    grid-area: 2/2/4/3
+}
+.new-char__btn{
+    grid-area: 5/2/6/3
+}
