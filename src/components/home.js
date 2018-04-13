@@ -1,10 +1,12 @@
 //import modules
 import React, {Component} from 'react';
+import {connect} from 'react-redux';
+import {bindActionCreators} from'redux';
 
 //import components
 import PlayerStats from './home/PlayerStats'
 
-class Home extends Component{
+export class Home extends Component{
     render(){
         return(
             <div>

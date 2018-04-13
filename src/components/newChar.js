@@ -12,7 +12,7 @@ export class NewChar extends Component{
     render(){
         let classText = text.defaultClassText; 
         const SelectedClass = this.props.SelectedClass;
-        let classGif = ''
+        let classGif = 'https://media.giphy.com/media/13IuTpv6v6yMjS/giphy.gif';
           if(!SelectedClass ){
             classText = text.defaultClassText
           }else if(SelectedClass === 'Nerd'){
